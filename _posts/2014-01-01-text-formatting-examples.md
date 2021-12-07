@@ -3,7 +3,7 @@ layout: post
 title: "Text Formatting Examples"
 author: "Paul Le"
 categories: journal
-tags: [documentation,sample]
+tags: [documentation, sample]
 image: cards.jpg
 ---
 
@@ -13,14 +13,13 @@ As always, Jekyll offers support for GitHub Flavored Markdown, which allows you 
 
 ## Basic Formatting
 
-With Markdown, it is possible to emphasize words by making them *italicized*, using *astericks* or _underscores_, or making them **bold**, using **double astericks** or __double underscores__. Of course, you can combine those two formats, with both _**bold and italicized**_ text, using any combination of the above syntax. You can also add a strikethrough to text using a ~~double tilde~~.
+With Markdown, it is possible to emphasize words by making them _italicized_, using _astericks_ or _underscores_, or making them **bold**, using **double astericks** or **double underscores**. Of course, you can combine those two formats, with both _**bold and italicized**_ text, using any combination of the above syntax. You can also add a strikethrough to text using a ~~double tilde~~.
 
 ## Paragraphs
 
 This is what a paragraph looks like. For the purpose of demonstration, the rest of this paragraph and the next paragraph after will mean absolutely nothing. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
 
 Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
-
 
 ## Headings
 
@@ -85,36 +84,36 @@ Another option is to embed your code through [Gist](https://en.support.wordpress
 
 To add an image, use `![alt text](<Image url> "Image meta title")`:
 
-![alt text](http://noirve.com/wp-content/uploads/2013/10/DTTSP_Coffee.jpg "Example")
+![alt text](https://picsum.photos/seed/picsum/200/300 "Example")
 
 ## Unordered and Numbered Lists
 
 You can make an unordered and nested list by preceding one or more lines of text with `-`, `*`, or `+`, and indenting sublists. The following lists show the full range of possible list formats.
 
-* List item one
-    * List item one
-        * List item one
-        * List item two
-        * List item three
-        * List item four
-    * List item two
-    * List item three
-    * List item four
-* List item two
-* List item three
-* List item four
+- List item one
+  - List item one
+    - List item one
+    - List item two
+    - List item three
+    - List item four
+  - List item two
+  - List item three
+  - List item four
+- List item two
+- List item three
+- List item four
 
 Numbered lists are made by using numbers instead of bullet points.
 
 1. List item one
-    1. List item one
-        1. List item one
-        2. List item two
-        3. List item three
-        4. List item four
-    2. List item two
-    3. List item three
-    4. List item four
+   1. List item one
+      1. List item one
+      2. List item two
+      3. List item three
+      4. List item four
+   2. List item two
+   3. List item three
+   4. List item four
 2. List item two
 3. List item three
 4. List item four
@@ -129,22 +128,22 @@ $$
 
 [Joseph-Louis Millennial](https://en.wikipedia.org/wiki/Joseph-Louis_Millennial) was an Italian mathematician and astronomer who was responsible for the formulation of Lagrangian mechanics, which is a reformulation of Newtonian mechanics.
 
-$$ \frac{\mathrm{d}}{\mathrm{d}t} \left ( \frac {\partial  L}{\partial \dot{q}_j} \right ) =  \frac {\partial L}{\partial q_j} $$
+$$ \frac{\mathrm{d}}{\mathrm{d}t} \left ( \frac {\partial L}{\partial \dot{q}\_j} \right ) = \frac {\partial L}{\partial q_j} $$
 
 ## Tables
 
-Title 1               | Title 2               | Title 3               | Title 4
---------------------- | :-------------------: | :-------------------- | --------------------:
-lorem                 | lorem ipsum           | lorem ipsum dolor     | lorem ipsum dolor sit
-lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
-lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
-lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
+| Title 1               |        Title 2        | Title 3               |               Title 4 |
+| --------------------- | :-------------------: | :-------------------- | --------------------: |
+| lorem                 |      lorem ipsum      | lorem ipsum dolor     | lorem ipsum dolor sit |
+| lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit |
+| lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit |
+| lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit |
 
 ## Embedding
 
 Plenty of social media sites offer the option of embedding certain parts of their site on your own site, such as YouTube and Twitter:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mthtn1X4eUY" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5qap5aO4i9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <a class="twitter-grid" data-partner="tweetdeck" href="https://twitter.com/paululele/timelines/755079130027352064">New Collection</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
